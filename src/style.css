@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: linear-gradient(
+		to bottom,
+		#ff9933,
+		#ff9c7c,
+		#ffadb9,
+		#ffc7e7,
+		#ffe2fe,
+		#ebe1ff,
+		#d5e0ff,
+		#bfdffc,
+		#68ceea,
+		#00bcbc,
+		#00a572,
+		#138808
+	);
+}
+
+.model {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 350px;
+}
+
+.model iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.model .data {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 350px;
+	background: whitesmoke;
+	mix-blend-mode: screen;
+	font-size: 10rem;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 7px;
+	font-weight: bolder;
+}
+
+.ResponsiveYTPlayer {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.ResponsiveYTPlayer iframe,
+.ResponsiveYTPlayer object,
+.ResponsiveYTPlayer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
